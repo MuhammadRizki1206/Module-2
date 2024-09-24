@@ -225,3 +225,34 @@ a {
   background-color: white;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .section__container {
+    grid-template-columns: 1fr; /* Satu kolom di perangkat kecil */
+    padding: 1rem; /* Kurangi padding */
+  }
+
+  .title {
+    font-size: 2rem; /* Sesuaikan ukuran font */
+  }
+
+  .action__btns {
+    flex-direction: column; /* Tombol dalam kolom */
+  }
+
+  .contact-form {
+    grid-template-columns: 1fr; /* Satu kolom untuk form kontak */
+  }
+
+  #project .card {
+    height: auto; /* Otomatis tinggi untuk card */
+  }
+
+  #about h2 {
+    font-size: 1.8rem; /* Sesuaikan ukuran font untuk heading */
+  }
+
+  #about p {
+    font-size: 0.9rem; /* Sesuaikan ukuran font untuk paragraf */
+  }
+}

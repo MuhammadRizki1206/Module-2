@@ -59,25 +59,38 @@ const Portfolio: React.FC = () => {
       <section className="project" id="project">
         <h2 style={{ textAlign: "center" }}>My Project</h2>
         <div className="card">
-          <img
-            className="img"
-            src="./picture/Login-form.png"
-            alt=""
-          />
-          <h3 style={{ textAlign: "center" }}>Login form</h3>
-          <p style={{ textAlign: "center" }}>sksksks</p>
+          <img className="img" src="./picture/Login-form.png" alt="" />
+          <h3 style={{ textAlign: "center" }}>Login Form</h3>
+          <p style={{ textAlign: "center" }}>
+            Deskripsi: Proyek ini merupakan pembuatan form login sederhana yang
+            dirancang untuk memberikan pengalaman pengguna yang intuitif dan
+            responsif. Form ini memungkinkan pengguna untuk memasukkan username
+            dan password untuk mengakses aplikasi atau website.
+          </p>
           <a href="#">Github</a>
         </div>
         <div className="card">
           <img src="./picture/landing-page.png" alt="" />
           <h3 style={{ textAlign: "center" }}>Landing Page Bakerry shop</h3>
-          <p style={{ textAlign: "center" }}>sksksksks</p>
+          <p style={{ textAlign: "center" }}>
+            Deskripsi: Proyek ini merupakan pembuatan landing page untuk sebuah
+            toko roti yang bertujuan untuk menarik perhatian pengunjung dan
+            mempromosikan berbagai produk roti yang ditawarkan. Desain yang
+            menarik dan informatif ini dirancang untuk meningkatkan pengalaman
+            pengguna dan mendorong konversi pengunjung menjadi pelanggan.
+          </p>
           <a href="#">Github</a>
         </div>
         <div className="card">
           <img src="./picture/cek-khodam.png" alt="" />
           <h3 style={{ textAlign: "center" }}>Website cek khodam</h3>
-          <p style={{ textAlign: "center" }}>sksksksks</p>
+          <p style={{ textAlign: "center" }}>
+            Deskripsi: Proyek ini merupakan pembuatan website interaktif yang
+            memungkinkan pengguna untuk melakukan cek khodam secara online.
+            Website ini dirancang untuk memberikan informasi yang mudah dipahami
+            mengenai khodam dan cara mengenalinya, serta memberikan layanan
+            konsultasi bagi pengguna yang ingin mendalami lebih lanjut.
+          </p>
           <a href="#">Github</a>
         </div>
       </section>
@@ -88,7 +101,8 @@ const Portfolio: React.FC = () => {
           <input type="text" placeholder="Enter Your Name" />
           <input type="email" placeholder="Enter a valid email address" />
           <textarea placeholder="Enter Your Message"></textarea>
-          <button type="submit">Submit</button>
+          
+          <a href="mailto:muhammadrizkisaja1212@gmail.com" className="email-link"type="submit">Submit</a>
         </form>
       </section>
 

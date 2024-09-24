@@ -161,7 +161,7 @@ a {
   margin: 20px auto;
   padding: 0; /* Menghapus padding untuk menghindari gambar terpotong */
   max-width: 1000px; /* Sesuaikan lebar maksimal card sesuai kebutuhan */
-  height: 650px; /* Atur tinggi card sesuai gambar */
+  height: 680px; /* Atur tinggi card sesuai gambar */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden; /* Menyembunyikan bagian gambar yang melampaui */
   text-align: center; /* Pusatkan teks */
@@ -210,7 +210,7 @@ a {
   height: 150px;
 }
 
-.contact-form button {
+.contact-form a {
   grid-column: span 2;
   padding: 15px;
   background-color: black;

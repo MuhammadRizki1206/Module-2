@@ -1,5 +1,8 @@
 import React from "react";
 import "../portfolio.css";
+import Foto from "../public/picture/cek-khodam.png"
+import Roti from "../public/picture/landing-page.png"
+import Login from "../public/picture/Login-form.png"
 
 const Portfolio: React.FC = () => {
   return (
@@ -59,7 +62,7 @@ const Portfolio: React.FC = () => {
       <section className="project" id="project">
         <h2 style={{ textAlign: "center" }}>My Project</h2>
         <div className="card">
-          <img className="img" src="./picture/Login-form.png" alt="" />
+          <img className="img" src={Login} alt="" />
           <h3 style={{ textAlign: "center" }}>Login Form</h3>
           <p style={{ textAlign: "center" }}>
             Deskripsi: Proyek ini merupakan pembuatan form login sederhana yang
@@ -70,7 +73,7 @@ const Portfolio: React.FC = () => {
           <a href="#">Github</a>
         </div>
         <div className="card">
-          <img src="./picture/landing-page.png" alt="" />
+          <img src={Roti} alt="" />
           <h3 style={{ textAlign: "center" }}>Landing Page Bakerry shop</h3>
           <p style={{ textAlign: "center" }}>
             Deskripsi: Proyek ini merupakan pembuatan landing page untuk sebuah
@@ -82,7 +85,7 @@ const Portfolio: React.FC = () => {
           <a href="#">Github</a>
         </div>
         <div className="card">
-          <img src="./picture/cek-khodam.png" alt="" />
+          <img src={Foto} alt="" />
           <h3 style={{ textAlign: "center" }}>Website cek khodam</h3>
           <p style={{ textAlign: "center" }}>
             Deskripsi: Proyek ini merupakan pembuatan website interaktif yang

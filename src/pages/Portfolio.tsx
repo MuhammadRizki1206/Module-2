@@ -1,8 +1,8 @@
 import React from "react";
 import "../portfolio.css";
-import Foto from "../public/picture/cek-khodam.png"
-import Roti from "../public/picture/landing-page.png"
-import Login from "../public/picture/Login-form.png"
+import Foto from "../../public/cek-khodam.png"
+import Roti from "../../public/landing-page.png"
+import Login from "../../public/Login-form.png"
 
 const Portfolio: React.FC = () => {
   return (
